@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+
+*{ box-sizing: border-box;}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+div {
+    margin: 10px;
+    padding: 10px;
+  }
+
+main{
+    display: flex;
+    gap: 10px;
+}
+
+header{ 
+    background-color: antiquewhite;
+    margin: 0%;
+    border-right: 0;
+}
+
+
+nav a{text-decoration: none;
+margin-right:  50px;
+color: rgb(226, 226, 226);}
+
+nav{ background-color: rgb(0, 0, 0); text-align: 
+text-align:center}
+
+h1{
+    text-align: center;
+    margin: 0%;
+    border-left: 0cm;
+}
+
+h2{ text-align: center;}
+
+section{
+    display: flex;
+}
+
+article{
+    border: solid;
+}
+
+nav{
+    background-color: black;
+   text-align: center;
+    
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Corpo da página */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Estilo do header */
+  header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  header nav a:hover {
+    text-decoration: underline;
+  }
+
+  /* Flexbox para os artigos lado a lado */
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  /* Estilo do artigo */
+  article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+
+  article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  article h2 {
+    font-size: 2rem;
+    color: #3498db;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+
+  
+  article p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 1.8;
+  }
+
+ 
+  @media (max-width: 768px) {
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    article {
+      max-width: 90%;
+    }
+  }
+
+ /* Ajusta a logo */
+div img {
+  position: absolute;   /* Posiciona a logo no topo à esquerda */
+  top: 10px;            /* Ajuste a distância do topo conforme necessário */
+  left: 20px;           /* Ajuste a distância da esquerda conforme necessário */
+  width: 70px;          /* Tamanho da logo, ajuste conforme necessário */
+  height: auto;
+}
+
